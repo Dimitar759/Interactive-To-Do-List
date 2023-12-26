@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome To Your To-Do List</h1>
+    <br>
+    <div id="main-container" class="container">
+        <label for="tasks"><b>Enter your task:</b></label>
+        <br>
+        <textarea id="inputTask" placeholder="Enter text here!" maxlength="400"></textarea>
+        <br>
+        <div id="buttons">
+            <button id="addTask">Add</button>
+            <button id="deleteLast">Delete last</button>
+            <button id="delete">Delete All</button>
+        </div>
+        <br>
+        <div id="information-container" class="container">
+            <ul id="list">
+                
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

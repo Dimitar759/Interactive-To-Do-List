@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 15% 0 15%;
+}
+
+#inputTask{
+    width: 300px;
+    height: 50px;
+    resize:vertical;
+   
+}
+
+li{
+    text-align: left;
+}
